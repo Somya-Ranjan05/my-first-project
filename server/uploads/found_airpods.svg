@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-foundairpodssvg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="glow-foundairpodssvg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#bg-foundairpodssvg)" rx="16"/>
+  <circle cx="300" cy="200" r="160" fill="url(#glow-foundairpodssvg)"/>
+
+  <!-- Visual Item Representation -->
+  <g filter="url(#shadow)" transform="translate(300, 195)">
+    <!-- Decorative Center Plate -->
+    <rect x="-100" y="-80" width="200" height="160" rx="20" fill="#1e293b" stroke="#60a5fa" stroke-width="3" stroke-opacity="0.8"/>
+    <circle cx="0" cy="0" r="45" fill="#60a5fa" fill-opacity="0.2"/>
+    <text x="0" y="8" font-family="system-ui, sans-serif" font-size="34" font-weight="bold" fill="#60a5fa" text-anchor="middle">
+      🎧
+    </text>
+  </g>
+
+  <!-- Title Pill -->
+  <rect x="50" y="340" width="500" height="65" rx="14" fill="#0f172a" fill-opacity="0.9" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <text x="300" y="380" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#f8fafc" text-anchor="middle">
+    Found AirPods Pro Cover
+  </text>
+</svg>
